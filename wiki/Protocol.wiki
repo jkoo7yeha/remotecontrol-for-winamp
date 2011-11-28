@@ -1,0 +1,88 @@
+#summary Network protocol of the client and server applications
+#labels Phase-Implementation
+
+= Introduction =
+
+The network traffic of RemoteControl for Winamp is not encrypted. Feel free to use the Winamp plugin or the Android app to enlarge functionalities.
+
+
+= Synchronization =
+
+*When a client connects to the server app, the playback status is synchronized. The server automatically sends these messages with the corresponding meaning. Each message is terminated by the new line '\n' character.*
+
+  # length of playlist
+  # title of every track in playlist
+  # repeat status (1: on, 0:off)
+  # shuffle status (1: on, 0:off)
+  # volume (0..255)
+  # number of elements in wasabi queue
+  # track number of every element in wasabi queue
+  # samplerate
+  # bitrate
+  # length
+  # number of currently playing title within playlist
+  # title of currently playing track
+  # playback position in seconds
+  # playback status (1: playing, 3: paused, 0: not playing (stopped))
+  # cover size in bytes
+  # cover data
+
+
+= Controling Winamp =
+
+*The Winamp server plugin can be controlled with these commands. Each command has to be terminated by a '\0' character.*
+
+|| *string to send* || *Winamp action* || *comment* ||
+|| play || starts playback || ||
+|| pause || pauses playback || ||
+|| previous || previous track || ||
+|| next || next track || ||
+|| shuffle || toggle shuffle || ||
+|| repeat || toggle repeat || ||
+|| mute || mute/unmute || ||
+|| volume_X || set volume to X || 0 <= X <= 255 ||
+|| progress_X || set playback position within track to X seconds || ||
+|| playlistitem_X || play file number X in playlist || ||
+|| enqueue_X || use wasabi api_queue service to enqueue track X from playlist || ||
+|| remqueue_X || remove track X from api_queue service || ||
+|| trackInfo_X || get TAG information for track number X in the playlist || the server answers with track_title_X, track_artist_X, track_album_X, track_year_X, track_track_X, track_genre_X, track_samplerate_X, track_bitrate_X, track_length_X, track_comment_X, track_X. See below. ||
+
+
+= Information messages from the server =
+
+*The Winamp plugin tells the client about events with the following commands. Each command is terminated by the new line '\n' character.*
+
+|| *string sent by the server plugin* || *meaning* || *comment* ||
+|| isplaying_X || playback status has changed by user action || Winamp is 1: playing, 3: paused, 0: not playing (stopped) ||
+|| playlistPosition_X || element X of the playlist is playing || ||
+|| samplerate_X || currently playing title has the samplerate X || ||
+|| bitrate_X || currently playing title has the bitrate X || ||
+|| length_X || currently playing title has the length X in seconds || ||
+|| title_X || currently playing element in playlist has the title X || displayed in the playlist ||
+|| coverLength_X || if X > 0 the next X bytes are the cover picture data || picture data is not terminated by '\n' ||
+|| volume_X || volume has been changed to X || 0 <= X <= 255 ||
+|| progress_X || the playback position within the currently playing track has been changed manually to X seconds || ||
+|| queue_next || next element from wasabi api_queue service has been chosen || ||
+|| pause || playback has been paused || ||
+|| stop || playback has been stopped|| ||
+|| shuffle_X || shuffle (de-)activated || X==1: on, X==0: off ||
+|| repeat_X || reapeat (de-)activated || X==1: on, X==0: off ||
+|| || ||
+|| track_title_X || requested title, read from TAG header || ||
+|| track_artist_X || requested artist, read from TAG header || ||
+|| track_album_X || requested album, read from TAG header || ||
+|| track_year_X || requested year, read from TAG header || ||
+|| track_genre_X || requested genre, read from TAG header || ||
+|| track_samplerate_X || requested sample rate, read from TAG header || ||
+|| track_bitrate_X || requested bit rate, read from TAG header || ||
+|| track_length_X || requested length in seconds, read from TAG header || ||
+|| track_comment_X || requested comment, read from TAG header || ||
+|| track_X || requested cover length. if X > 0 the next X bytes are the cover picture data || picture data is not terminated by '\n' ||
+
+When a new track has started playing the commands isplaying_X, playlistPosition_X, samplerate_X, bitrate_X, length_X, title_X, cover_X and the cover data are always sent in this order.
+
+= <font color="#FF0000">IMPORTANT</font> =
+
+*If keep alive messages are enabled in the server*
+
+Every 5 seconds the server plugin sends the string "alive\n" to the client. If the client didn't answer with "alive\0" for 3 times (=15 seconds) the server assumes the client has lost connection and the server is restarted.
