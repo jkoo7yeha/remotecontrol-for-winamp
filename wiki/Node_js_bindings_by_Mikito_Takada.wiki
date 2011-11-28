@@ -1,4 +1,5 @@
 #summary Node.js bindings by Mikito Takada to control Winamp from the command line
+#labels Featured
 
 = Details =
 
