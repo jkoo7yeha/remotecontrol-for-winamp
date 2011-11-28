@@ -1,0 +1,7 @@
+#summary Node.js bindings by Mikito Takada to control Winamp from the command line
+
+= Details =
+
+Thanks Mikito Takada for creating great Node.js bindings!
+
+See https://github.com/mixu/node-winamp
