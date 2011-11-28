@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+string/menu_disConnect"
+          android:icon="@drawable/connect_black"
+          android:title="@string/menu_disConnect" />
+    <item android:id="@+string/menu_help"
+          android:icon="@drawable/help_black"
+          android:title="@string/menu_help" />
+    <item android:id="@+string/menu_about"
+          android:icon="@drawable/about_black"
+          android:title="@string/menu_about" />
+    <item android:id="@+string/menu_donate"
+          android:icon="@drawable/donate_black"
+          android:title="@string/menu_donate" />
+    <item android:id="@+string/menu_quit"
+          android:icon="@drawable/quit_black"
+          android:title="@string/menu_quit" />
+</menu>

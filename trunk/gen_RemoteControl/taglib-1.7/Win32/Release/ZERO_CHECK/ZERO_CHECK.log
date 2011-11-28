@@ -1,0 +1,14 @@
+﻿Der Buildvorgang wurde am 30.03.2011 14:47:45 gestartet.
+     1>Projekt "C:\Users\martin\Desktop\taglib-1.7\ZERO_CHECK.vcxproj" auf Knoten "2", build Ziel(e).
+     1>InitializeBuildStatus:
+         "Win32\Release\ZERO_CHECK\ZERO_CHECK.unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+       CustomBuild:
+         Alle Ausgaben sind aktuell.
+       FinalizeBuildStatus:
+         Die Datei "Win32\Release\ZERO_CHECK\ZERO_CHECK.unsuccessfulbuild" wird gelöscht.
+         Aktualisieren des Timestamps von "Win32\Release\ZERO_CHECK\ZERO_CHECK.lastbuildstate".
+     1>Die Erstellung des Projekts "C:\Users\martin\Desktop\taglib-1.7\ZERO_CHECK.vcxproj" ist abgeschlossen, build Ziel(e).
+
+Das Erstellen war erfolgreich.
+
+Verstrichene Zeit 00:00:00.06

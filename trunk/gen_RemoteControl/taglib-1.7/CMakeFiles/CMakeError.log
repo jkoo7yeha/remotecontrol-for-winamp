@@ -1,0 +1,35 @@
+Determining if the function __RTTI___ exists in the Crun failed with the following output:
+Change Dir: C:/Users/martin/Desktop/taglib-1.7/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe cmTryCompileExec.vcxproj /p:Configuration=Debug
+Microsoft (R)-Buildmodul, Version 4.0.30319.1
+[Microsoft .NET Framework, Version 4.0.30319.1]
+Copyright (C) Microsoft Corporation 2007. Alle Rechte vorbehalten.
+
+Der Buildvorgang wurde am 30.03.2011 14:40:25 gestartet.
+Projekt "C:\Users\martin\Desktop\taglib-1.7\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj" auf Knoten "1" (Standardziele).
+InitializeBuildStatus:
+  "cmTryCompileExec.dir\Debug\cmTryCompileExec.unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=__RTTI___ /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec.dir\Debug\\" /Fd"C:/Users/martin/Desktop/taglib-1.7/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec.pdb" /Gd /TC /analyze- /errorReport:queue "..\..\..\..\..\..\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"  /Zm1000 
+  CheckFunctionExists.c
+ManifestResourceCompile:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.embed.manifest.res" cmTryCompileExec.dir\Debug\cmTryCompileExec_manifest.rc 
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\martin\Desktop\taglib-1.7\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec.exe" /VERSION:"0.0" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib Crun.lib /MANIFEST /ManifestFile:"cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\martin\Desktop\taglib-1.7\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec.pdb" /SUBSYSTEM:CONSOLE /STACK:"10000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/martin/Desktop/taglib-1.7/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec.lib" /MACHINE:X86 cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.embed.manifest.res
+  cmTryCompileExec.dir\Debug\CheckFunctionExists.obj  /machine:X86 /debug 
+LINK : fatal error LNK1104: Datei "Crun.lib" kann nicht geöffnet werden. [C:\Users\martin\Desktop\taglib-1.7\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj]
+Die Erstellung des Projekts "C:\Users\martin\Desktop\taglib-1.7\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj" ist abgeschlossen (Standardziele) -- FEHLER.
+
+Fehler beim Buildvorgang.
+
+"C:\Users\martin\Desktop\taglib-1.7\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj" (Standardziel) (1) ->
+(Link Ziel) -> 
+  LINK : fatal error LNK1104: Datei "Crun.lib" kann nicht geöffnet werden. [C:\Users\martin\Desktop\taglib-1.7\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj]
+
+    0 Warnung(en)
+    1 Fehler
+
+Verstrichene Zeit 00:00:01.57
+
+

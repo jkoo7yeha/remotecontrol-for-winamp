@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="displayArrayTitle">Display behavior</string>
+    <string-array name="displayArray">
+        <item>Normal</item>
+        <item>Dim</item>
+        <item>Always on</item>
+    </string-array>
+</resources>

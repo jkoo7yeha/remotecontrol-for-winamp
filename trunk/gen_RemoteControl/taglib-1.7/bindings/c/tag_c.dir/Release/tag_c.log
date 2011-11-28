@@ -1,0 +1,20 @@
+﻿Der Buildvorgang wurde am 30.03.2011 14:50:27 gestartet.
+     1>Projekt "C:\Users\martin\Desktop\taglib-1.7\bindings\c\tag_c.vcxproj" auf Knoten "3", build Ziel(e).
+     1>InitializeBuildStatus:
+         "tag_c.dir\Release\tag_c.unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+       CustomBuild:
+         Alle Ausgaben sind aktuell.
+       ClCompile:
+         Alle Ausgaben sind aktuell.
+       Lib:
+         Alle Ausgaben sind aktuell.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\martin\Desktop\taglib-1.7\bindings\c\Release\tag_c.lib" /NOLOGO tag_c.dir\Release\tag_c.obj
+         tag_c.vcxproj -> C:\Users\martin\Desktop\taglib-1.7\bindings\c\Release\tag_c.lib
+       FinalizeBuildStatus:
+         Die Datei "tag_c.dir\Release\tag_c.unsuccessfulbuild" wird gelöscht.
+         Aktualisieren des Timestamps von "tag_c.dir\Release\tag_c.lastbuildstate".
+     1>Die Erstellung des Projekts "C:\Users\martin\Desktop\taglib-1.7\bindings\c\tag_c.vcxproj" ist abgeschlossen, build Ziel(e).
+
+Das Erstellen war erfolgreich.
+
+Verstrichene Zeit 00:00:00.82

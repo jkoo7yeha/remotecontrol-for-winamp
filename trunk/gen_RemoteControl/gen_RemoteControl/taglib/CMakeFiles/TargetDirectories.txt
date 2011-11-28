@@ -1,0 +1,5 @@
+C:/Users/martin/Desktop/taglib-1.7/CMakeFiles/ALL_BUILD.dir
+C:/Users/martin/Desktop/taglib-1.7/CMakeFiles/ZERO_CHECK.dir
+C:/Users/martin/Desktop/taglib-1.7/CMakeFiles/docs.dir
+C:/Users/martin/Desktop/taglib-1.7/taglib/CMakeFiles/tag.dir
+C:/Users/martin/Desktop/taglib-1.7/bindings/c/CMakeFiles/tag_c.dir
