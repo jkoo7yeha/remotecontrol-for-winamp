@@ -1,5 +1,5 @@
 #summary Tutorial for installing RemoteControl for Winamp on your Android phone and the Winamp plugin.
-#labels Phase-Deploy
+#labels Phase-Deploy,Phase-Support
 
 = Introduction =
 
