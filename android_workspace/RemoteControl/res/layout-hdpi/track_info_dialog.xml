@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>                 
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true" >
+	
+	
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical"
+		
+		android:scrollbars="vertical"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		>
+		
+		<ImageView 
+		    android:id="@+id/track_cover"
+		    android:src="@drawable/cover_big"
+		    android:layout_gravity="center"
+			android:layout_width="400px"
+			android:layout_height="300px"
+			android:layout_marginBottom="10px"
+			/>
+		
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			>
+			
+			<TextView android:id="@+string/track_title"
+				android:text="@string/track_title"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textStyle="bold"
+				android:paddingLeft="5dp"
+				android:paddingRight="5dp"
+				/>
+				
+			<TextView android:id="@+id/track_title2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingLeft="5dp"
+				android:paddingRight="5dp"
+				/>
+			
+		</LinearLayout>
+		
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			>
+			
+			<TextView android:id="@+string/track_artist"
+				android:text="@string/track_artist"
+				android:textStyle="bold"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingBottom="10dp"
+				android:paddingLeft="5dp"
+				android:paddingRight="5dp"
+				/>
+				
+			<TextView android:id="@+id/track_artist2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingBottom="10dp"
+				android:paddingLeft="5dp"
+				android:paddingRight="5dp"
+				/>
+			
+		</LinearLayout>
+			
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			>
+			
+			<TextView android:id="@+string/track_album"
+				android:text="@string/track_album"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textStyle="bold"
+				android:paddingLeft="5dp"
+				android:paddingRight="5dp"
+				/>
+				
+			<TextView android:id="@+id/track_album2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingLeft="5dp"
+				android:paddingRight="5dp"
+				/>
+			
+		</LinearLayout>
+		
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			>
+			
+			<TextView android:id="@+string/track_year"
+				android:text="@string/track_year"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textStyle="bold"
+				android:paddingLeft="5dp"
+				android:paddingRight="5dp"
+				/>
+				
+			<TextView android:id="@+id/track_year2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingLeft="5dp"
+				android:paddingRight="5dp"
+				/>
+				
+			<TextView android:id="@+string/track_track"
+				android:text="@string/track_track"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textStyle="bold"
+				android:paddingLeft="5dp"
+				android:paddingRight="5dp"
+				/>
+				
+			<TextView android:id="@+id/track_track2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingLeft="5dp"
+				android:paddingRight="5dp"
+				/>
+			
+		</LinearLayout>
+		
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			>
+			
+			<TextView android:id="@+string/track_genre"
+				android:text="@string/track_genre"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textStyle="bold"
+				android:paddingLeft="5dp"
+				android:paddingRight="5dp"
+				/>
+				
+			<TextView android:id="@+id/track_genre2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingLeft="5dp"
+				android:paddingRight="5dp"
+				/>
+			
+		</LinearLayout>
+		
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			>
+			
+			<TextView android:id="@+string/track_samplerate"
+				android:text="@string/track_samplerate"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textStyle="bold"
+				android:paddingLeft="5dp"
+				android:paddingRight="5dp"
+				/>
+				
+			<TextView android:id="@+id/track_samplerate2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingLeft="5dp"
+				android:paddingRight="5dp"
+				/>
+				
+		</LinearLayout>
+		
+		
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			>
+				
+			<TextView android:id="@+string/track_bitrate"
+				android:text="@string/track_bitrate"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textStyle="bold"
+				android:paddingLeft="5dp"
+				android:paddingRight="5dp"
+				/>
+				
+			<TextView android:id="@+id/track_bitrate2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingLeft="5dp"
+				android:paddingRight="5dp"
+				/>
+			
+		</LinearLayout>
+		
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			>
+			
+			<TextView android:id="@+string/track_length"
+				android:text="@string/track_length"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textStyle="bold"
+				android:paddingBottom="10dp"
+				android:paddingLeft="5dp"
+				android:paddingRight="5dp"
+				/>
+				
+			<TextView android:id="@+id/track_length2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingBottom="10dp"
+				android:paddingLeft="5dp"
+				android:paddingRight="5dp"
+				/>
+			
+		</LinearLayout>
+		
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			>
+			
+			<TextView android:id="@+string/track_comment"
+				android:text="@string/track_comment"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textStyle="bold"
+				android:paddingLeft="5dp"
+				android:paddingRight="5dp"
+				/>
+				
+			<TextView android:id="@+id/track_comment2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingLeft="5dp"
+				android:paddingRight="5dp"
+				/>
+			
+		</LinearLayout>
+		
+	</LinearLayout>
+</ScrollView>

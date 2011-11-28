@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:key="preferences">
+
+	<PreferenceCategory
+        android:title="@string/connection_Settings">
+	
+		<EditTextPreference
+		android:key="0"
+		android:title="Server IP address"
+		android:summary=""
+		android:singleLine="true"
+		android:inputType="phone" />
+		
+		<EditTextPreference
+		android:key="1"
+		android:title="Port"
+		android:summary=""
+		android:inputType="phone" />
+		
+		<EditTextPreference
+		android:key="2"
+		android:title="Timeout [ms]"
+		android:summary="" 
+		android:inputType="phone" />
+		
+		
+		<CheckBoxPreference
+		android:key="3"
+		android:title="Auto login"
+		android:summary="" />
+	
+	</PreferenceCategory>
+	
+	<PreferenceCategory
+        android:title="@string/UI_Settings">
+	
+		<ListPreference
+			android:key="4"
+			android:title="@string/displayArrayTitle"
+			android:summary=""
+			android:entries="@array/displayArray"
+			android:entryValues="@array/displayArray" />
+		
+	</PreferenceCategory>
+	
+	<PreferenceCategory
+        android:title="@string/Call_Settings">
+	
+		<CheckBoxPreference
+		android:key="5"
+		android:title="Auto pause playback"
+		android:summary="" />
+	
+	</PreferenceCategory>
+
+</PreferenceScreen>

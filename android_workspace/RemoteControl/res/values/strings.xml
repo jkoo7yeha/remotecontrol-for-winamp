@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- GENERAL -->
+	<string name="app_name">RemoteControl for Winamp</string>
+	
+	<!-- OVERVIEW -->
+	<string name="cover">cover</string>
+	<string name="status_display_not_connected">disconnected</string>
+	<string name="connect">Connect</string>
+	
+	<string name="SeekBarProgress">SeekBarProgress</string>
+	
+	<string name="length_minutes">length_minutes</string>
+	<string name="length_seconds">length_seconds</string>
+	
+	<string name="current_length_minutes">current_length_minutes</string>
+	<string name="current_length_seconds">current_length_seconds</string>
+	<string name="SeekBarVolume">SeekBarVolume</string>
+	<string name="colon1">colon1</string>
+	<string name="colon2">colon2</string>
+	<string name="slash">slash</string>
+	<string name="mute">mute</string>
+	<string name="samplerate_display">samplerate_display</string>
+	<string name="bitrate_display">bitrate_display</string>
+	
+	
+	<string name="title">title</string>
+	
+	<string name="title_display">title_display</string>
+	
+	<!-- PLAYLIST -->
+	<string name="search_box">search_box</string>
+	<string name="ListViewPlaylist">ListViewPlaylist</string>
+    <string name="playlist_title">playlist_title</string>
+    <string name="playlist_play">playlist_play</string>
+	<string name="playlist_queue">playlist_queue</string>
+	
+	<string name="playlist_menu_play">playlist_menu_play</string>
+	<string name="playlist_menu_delete">playlist_menu_delete</string>
+	
+	<!-- MENU BOTTOM -->
+	<string name="menu_disconnect">Disconnect</string>
+    <string name="menu_about">About</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_donate">Donate</string>
+    <string name="menu_quit">Quit</string>
+    
+    <!-- INFO TEXT -->
+    <string name="infotext00">Project hosting on Google Code: </string>
+    <string name="infotext0"><a href="http://code.google.com/p/remotecontrol-for-winamp/">http://code.google.com/p/remotecontrol-for-winamp/</a></string>
+    <string name="infotext2">Developed by\nMartin Schlodinski.</string>
+    <string name="infotext3">Contact: </string>
+    <string name="infotext4"><a href="remotecontrol.for.winamp@gmail.com">remotecontrol.for.winamp@gmail.com</a></string>
+    <string name="infotext5">Help:</string>
+    <string name="infotext6"><a href="http://code.google.com/p/remotecontrol-for-winamp/wiki/Help">http://code.google.com/p/remotecontrol-for-winamp/wiki/Help</a></string>
+    <string name="infotext7">Icons by:</string>
+    <string name="infotext8"><a href="iPapun.deviantart.com">iPapun.deviantart.com</a></string>
+    <string name="donate">donate</string>
+    
+    <!-- PREFERENCE SCREEN -->
+    <string name="connection_Settings">Connection settings</string>
+    <string name="UI_Settings">UI settings</string>
+     <string name="Call_Settings">Incoming call settings</string>
+    
+	<!-- BUTTONS -->
+	<string name="buttonLayout">buttonLayout</string>
+	
+	<string name="previous">previous</string>
+    <string name="playPause">playPause</string>
+    <string name="stop">stop</string>
+    <string name="next">next</string>
+    
+    <string name="shuffle">shuffle</string>
+    <string name="repeat">"repeat"</string>
+    
+    <string name="disConnect">disConnect</string>
+
+
+     <!-- INFO TEXT -->
+     <string name="ad1">This is the free version of RemoteControl.</string>
+     <string name="ad2">If you like it, please buy!</string>
+     <string name="ad3">Thanks! :)</string>
+     <string name="ad4">*This ad won\'t show up in paid version.</string>
+	
+	 <string name="closeButton">close</string>
+	 
+	 <!-- HELP TEXT -->
+     <string name="help1">This is a short tutorial for using RemoteControl.</string>
+     <string name="help2">1. Download and install the RemoteControl plugin for Winamp from <a href="http://code.google.com/p/remotecontrol-for-winamp/downloads/list">here</a>.</string>
+     <string name="help3">2. Start Winamp with the plugin.</string>
+     <string name="help4">3. Hit the "Connect" button below.</string>
+     
+     <string name="help5">You can show this hint again by clicking the settings button on your cell phone and choosing \"Help\".</string>
+	 <string name="help6">For further help visit the <a href="http://code.google.com/p/remotecontrol-for-winamp/wiki/Help">online documentation</a>.</string>
+	
+	 <string name="connectButton">Connect</string>
+	
+	
+	 <!-- TAG INFO TEXT -->
+     <string name="track_title">Title: </string>
+     <string name="track_artist">Interpret: </string>
+     <string name="track_album">Album: </string>
+     <string name="track_year">Year: </string>
+     <string name="track_track">Track: </string>
+     <string name="track_genre">Genre: </string>
+     <string name="track_samplerate">Sample rate: </string>
+     <string name="track_bitrate">Bit rate: </string>
+     <string name="track_length">Length: </string>
+     <string name="track_comment">Comment: </string>
+     
+</resources>

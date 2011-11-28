@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>                 
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true" >
+    
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical"
+		
+		android:scrollbars="vertical"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		>
+		
+		
+		
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="horizontal"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			>
+			
+			<ImageView
+				android:src="@drawable/icon"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+				
+			<TextView android:id="@+string/help1"
+				android:text="@string/help1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textColor="#FFF"
+				android:padding="10dp"
+				/>
+				
+		</LinearLayout>
+		
+		<TextView android:id="@+string/help2"
+			android:text="@string/help2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="#FFF"
+			android:padding="10dp"
+			
+			/>
+			
+		<TextView android:id="@+string/help3"
+			android:text="@string/help3"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="#FFF"
+			android:padding="10dp"
+			/>
+		
+		<TextView android:id="@+string/help4"
+			android:text="@string/help4"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="#FFF"
+			android:padding="10dp"
+			/>
+			
+		<Button android:id="@+string/connectButton"
+			android:text="@string/connectButton"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:layout_margin="10dp"
+			/>
+			
+		<TextView android:id="@+string/help5"
+			android:text="@string/help5"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="#FFF"
+			android:textStyle="italic"
+			android:padding="10dp"
+			/>
+			
+		<TextView android:id="@+string/help6"
+			android:text="@string/help6"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="#FFF"
+			android:padding="10dp"
+			/>
+			
+		
+	</LinearLayout>
+	
+</ScrollView>

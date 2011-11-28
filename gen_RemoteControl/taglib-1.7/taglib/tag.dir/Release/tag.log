@@ -1,0 +1,84 @@
+﻿Der Buildvorgang wurde am 30.03.2011 14:50:24 gestartet.
+     1>Projekt "C:\Users\martin\Desktop\taglib-1.7\taglib\tag.vcxproj" auf Knoten "2", build Ziel(e).
+     1>InitializeBuildStatus:
+         "tag.dir\Release\tag.unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+       CustomBuild:
+         Alle Ausgaben sind aktuell.
+       ClCompile:
+         Alle Ausgaben sind aktuell.
+       Lib:
+         Alle Ausgaben sind aktuell.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\martin\Desktop\taglib-1.7\taglib\Release\tag.lib" /NOLOGO tag.dir\Release\mpegfile.obj
+         tag.dir\Release\mpegproperties.obj
+         tag.dir\Release\mpegheader.obj
+         tag.dir\Release\xingheader.obj
+         tag.dir\Release\id3v1tag.obj
+         tag.dir\Release\id3v1genres.obj
+         tag.dir\Release\id3v2framefactory.obj
+         tag.dir\Release\id3v2synchdata.obj
+         tag.dir\Release\id3v2tag.obj
+         tag.dir\Release\id3v2header.obj
+         tag.dir\Release\id3v2frame.obj
+         tag.dir\Release\id3v2footer.obj
+         tag.dir\Release\id3v2extendedheader.obj
+         tag.dir\Release\attachedpictureframe.obj
+         tag.dir\Release\commentsframe.obj
+         tag.dir\Release\generalencapsulatedobjectframe.obj
+         tag.dir\Release\popularimeterframe.obj
+         tag.dir\Release\privateframe.obj
+         tag.dir\Release\relativevolumeframe.obj
+         tag.dir\Release\textidentificationframe.obj
+         tag.dir\Release\uniquefileidentifierframe.obj
+         tag.dir\Release\unknownframe.obj
+         tag.dir\Release\unsynchronizedlyricsframe.obj
+         tag.dir\Release\urllinkframe.obj
+         tag.dir\Release\oggfile.obj
+         tag.dir\Release\oggpage.obj
+         tag.dir\Release\oggpageheader.obj
+         tag.dir\Release\xiphcomment.obj
+         tag.dir\Release\vorbisfile.obj
+         tag.dir\Release\vorbisproperties.obj
+         tag.dir\Release\oggflacfile.obj
+         tag.dir\Release\mpcfile.obj
+         tag.dir\Release\mpcproperties.obj
+         tag.dir\Release\apetag.obj
+         tag.dir\Release\apefooter.obj
+         tag.dir\Release\apeitem.obj
+         tag.dir\Release\apefile.obj
+         tag.dir\Release\apeproperties.obj
+         tag.dir\Release\tstring.obj
+         tag.dir\Release\tstringlist.obj
+         tag.dir\Release\tbytevector.obj
+         tag.dir\Release\tbytevectorlist.obj
+         tag.dir\Release\tfile.obj
+         tag.dir\Release\tdebug.obj
+         tag.dir\Release\unicode.obj
+         tag.dir\Release\flacfile.obj
+         tag.dir\Release\flacpicture.obj
+         tag.dir\Release\flacproperties.obj
+         tag.dir\Release\flacmetadatablock.obj
+         tag.dir\Release\flacunknownmetadatablock.obj
+         tag.dir\Release\wavpackfile.obj
+         tag.dir\Release\wavpackproperties.obj
+         tag.dir\Release\speexfile.obj
+         tag.dir\Release\speexproperties.obj
+         tag.dir\Release\trueaudiofile.obj
+         tag.dir\Release\trueaudioproperties.obj
+         tag.dir\Release\rifffile.obj
+         tag.dir\Release\aifffile.obj
+         tag.dir\Release\aiffproperties.obj
+         tag.dir\Release\wavfile.obj
+         tag.dir\Release\wavproperties.obj
+         tag.dir\Release\tag.obj
+         tag.dir\Release\tagunion.obj
+         tag.dir\Release\fileref.obj
+         tag.dir\Release\audioproperties.obj
+         tag.vcxproj -> C:\Users\martin\Desktop\taglib-1.7\taglib\Release\tag.lib
+       FinalizeBuildStatus:
+         Die Datei "tag.dir\Release\tag.unsuccessfulbuild" wird gelöscht.
+         Aktualisieren des Timestamps von "tag.dir\Release\tag.lastbuildstate".
+     1>Die Erstellung des Projekts "C:\Users\martin\Desktop\taglib-1.7\taglib\tag.vcxproj" ist abgeschlossen, build Ziel(e).
+
+Das Erstellen war erfolgreich.
+
+Verstrichene Zeit 00:00:02.49

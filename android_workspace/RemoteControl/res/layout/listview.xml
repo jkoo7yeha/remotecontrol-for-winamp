@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+string/playlist_linearlayout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#eeeeee"
+    android:weightSum="1">
+
+	<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:id="@+string/playlist_container_left"
+    	android:layout_width="wrap_content"
+    	android:layout_height="fill_parent"
+    	android:layout_weight="1"
+    	android:orientation="horizontal" >
+    	
+		<ImageView 
+	   		android:id="@+string/playlist_cover"
+			android:src="@drawable/cover_square"
+			android:layout_width="50dp"
+			android:layout_height="50dp"
+			android:padding="5dp"/>
+	  
+		 <TextView
+	        android:id="@+string/playlist_title"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:paddingTop="5dp"
+	        android:paddingBottom="5dp"
+	        android:paddingRight="5dp"
+	        android:text=""
+	        android:textColor="#000000" 
+	        android:gravity="left"/>
+	       	
+	    </LinearLayout>
+    
+    <LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:id="@+string/playlist_container_right"
+    	android:layout_width="wrap_content"
+    	android:layout_height="fill_parent"
+    	android:layout_weight="0"
+    	android:orientation="vertical" >
+    	
+    	<ImageView 
+	   		android:id="@+string/playlist_play"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:paddingTop="5dp"
+			android:paddingBottom="5dp"
+			android:paddingRight="5dp"/>
+    	
+	    <TextView
+	        android:id="@+string/playlist_queue"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="#000000" 
+	        android:paddingTop="5dp"
+			android:paddingBottom="5dp"
+			android:paddingRight="5dp"/>
+  
+	  </LinearLayout>
+	  
+</LinearLayout>
